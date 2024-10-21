@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <img src="./image/2127336430_utb_panjang.png" alt="Logo UTB Panjang" />
+    <form action="index.html" method="get">
+      <fieldset>
+        <legend>Formulir Pendaftaran Mahasiswa Baru</legend>
+        <div class="field">
+          <label for="">Nama</label>
+          <input type="text" name="nama" placeholder="Nama" />
+        </div>
+        <div class="field">
+          <label for="">Alamat</label>
+          <input type="text" name="alamat" placeholder="Alamat" />
+        </div>
+        <div class="field">
+          <label for="">Jenis Kelamin</label>
+          <select name="jk" id="jk">
+            <option selected>Pilih Jenis Kelamin</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="">UKM</label>
+          <input type="checkbox" name="ukm" value="Oxigen" />
+          <label for="">Oxigen</label>
+          <input type="checkbox" name="ukm" value="E-Sport" />
+          <label for="">E-Sport</label>
+          <input type="checkbox" name="ukm" value="Mapala" />
+          <label for="">Mapala</label>
+        </div>
+        <div class="field">
+          <label for="">Jurusan</label>
+          <input type="radio" name="jurusan" value="TIF" />
+          <label for="">Teknik Informatika</label>
+          <input type="radio" name="jurusan" value="TI" />
+          <label for="">Teknik Industri</label>
+          <input type="radio" name="jurusan" value="DKV" />
+          <label for="">Desain Komunikasi Visual</label>
+          <input type="radio" name="jurusan" value="BD" />
+          <label for="">Bisnis Digital</label>
+          <input type="radio" name="jurusan" value="MR" />
+          <label for="">Manajemen Retail</label>
+        </div>
+        <div class="buttons">
+          <input type="submit" value="SUBMIT" />
+          <input type="reset" value="RESET" />
+        </div>
+      </fieldset>
+    </form>
+    <table>
+      <caption>
+        Tabel Nama Mahasiswa Baru
+      </caption>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th>UKM</th>
+        <th>Jurusan</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Manusia 1</td>
+        <td>Alamat 1</td>
+        <td>Oxigen</td>
+        <td>TIF</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Manusia 2</td>
+        <td>Alamat 2</td>
+        <td>Oxigen</td>
+        <td>DKV</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Manusia 3</td>
+        <td>Alamat 3</td>
+        <td>Oxigen</td>
+        <td>TI</td>
+      </tr>
+    </table>
+    <p class="info">
+      Info lebih lanjut klik link berikut
+      <a href="https://utb-univ.ac.id/">Universitas Teknologi Bandung</a>
+    </p>
+  </body>
+</html>
